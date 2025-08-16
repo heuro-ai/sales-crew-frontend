@@ -1,0 +1,102 @@
+/* General styles */
+.container {
+  width: 100%;
+  margin-top: 40px;
+  padding: 0 24px;
+}
+
+.title {
+  font-size: 16px;
+}
+
+.button {
+  display: block; /* Ensure the button is displayed as a block element */
+  margin-top: 16px; /* Add margin to separate it from the title */
+  font-size: 14px;
+}
+
+.table {
+  font-size: 14px;
+}
+
+.loading-container {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.action-button {
+  font-size: 14px;
+}
+
+.action-icon {
+  color: blue;
+  cursor: pointer;
+  margin-left: 16px;
+  font-size: 14px;
+}
+
+.reminder-sent-button {
+  background-color: green;
+  border-color: green;
+  color: white;
+  font-size: 14px;
+}
+
+.edit-modal-footer {
+  margin-top: 80px;
+  text-align: right;
+}
+
+.sender-modal-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.new-company-input {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 8px;
+}
+
+.new-company-input > * {
+  margin-right: 8px;
+}
+
+.new-company-input button {
+  margin-right: 0;
+}
+
+.table-cell {
+  font-size: 14px;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+  }
+
+  .title {
+    font-size: 14px;
+  }
+
+  .button {
+    font-size: 10px;
+  }
+
+  .table {
+    font-size: 10px;
+  }
+
+  .table-cell {
+    font-size: 10px;
+  }
+}
+
+.edit-icon {
+  color: blue;
+  cursor: pointer;
+  margin-left: 8px;
+  font-size: 14px;
+}

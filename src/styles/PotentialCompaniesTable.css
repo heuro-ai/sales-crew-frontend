@@ -1,0 +1,189 @@
+/* General styles */
+.table-container {
+  width: 100%;
+  margin-top: 40px;
+  padding: 0 16px;
+}
+
+.table-title {
+  font-size: 16px;
+}
+
+.table-button {
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.intable-text {
+  font-size: 14px;
+}
+
+.table-select-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.table-select {
+  width: 100%;
+  max-width: 200px;
+  margin-right: 16px;
+  margin-bottom: 8px;
+}
+
+.table-drawer {
+  width: 400px;
+}
+
+.table-drawer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.table-drawer-input {
+  width: 100%;
+}
+
+.table-drawer-input-half {
+  width: 50%;
+}
+
+.table-drawer-button {
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+.table {
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+.table-button-find-more {
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+.process-status {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.status-text {
+  margin-right: 8px;
+}
+
+.export-icon {
+  color: blue;
+  cursor: pointer;
+  margin-left: 8px;
+  font-size: 10px;
+}
+
+.edit-icon {
+  color: blue;
+  cursor: pointer;
+  margin-left: 16px;
+  font-size: 10px;
+}
+
+.mail-sent-button {
+  background-color: green;
+  border-color: green;
+  font-size: 10px;
+  color: white;
+}
+
+.add-new-product {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 8px;
+}
+
+.input-number-container {
+  display: flex;
+  gap: 16px;
+}
+
+.sender-name-input {
+  margin-bottom: 16px;
+}
+
+.add-new-company {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 8px;
+}
+
+.new-company-input {
+  margin-right: 8px;
+}
+
+.new-position-input {
+  margin-right: 8px;
+}
+
+.delete-icon {
+  color: red;
+  margin-left: 8px;
+}
+
+.email-subject-input {
+  margin-bottom: 16px;
+}
+
+.email-body-editor {
+  height: 250px;
+}
+
+.edit-modal-footer {
+  margin-top: 80px;
+  text-align: right;
+}
+
+.cancel-button {
+  margin-right: 8px;
+}
+
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .table-container {
+    padding: 0 8px;
+  }
+
+  .table-title {
+    font-size: 14px;
+  }
+
+  .table-button {
+    font-size: 10px;
+  }
+
+  .table-select {
+    max-width: 100%;
+    margin-right: 0;
+  }
+
+  .intable-text {
+    font-size: 12px;
+  }
+
+  .table-drawer {
+    width: 100%;
+  }
+
+  .table-drawer-button {
+    font-size: 10px;
+  }
+
+  .table {
+    font-size: 8px;
+  }
+
+  .table-button-find-more {
+    font-size: 10px;
+  }
+}

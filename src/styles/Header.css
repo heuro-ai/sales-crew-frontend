@@ -1,0 +1,98 @@
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: 150px;
+  padding: 0 16px;
+  background-color: white;
+  color: #001529;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.app-header.scrolled {
+  background-color: #001529;
+  color: white;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  flex-direction: row;
+  color: inherit; /* Ensure text color changes with header color */
+}
+
+.logo {
+  height: 75px;
+  width: 75px;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  align-items: flex-start;
+  margin-left: 16px;
+  color: inherit; /* Ensure text color changes with header color */
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 630;
+  margin-bottom: 0;
+  display: inline-block;
+  color: inherit; /* Ensure text color changes with header color */
+}
+
+.subtitle {
+  color: #5D8736;
+  font-size: 10px;
+  margin-top: 0;
+  display: inline-block;
+}
+
+.header-space {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 14px;
+  color: inherit; /* Ensure icon color changes with header color */
+}
+
+.text {
+  font-size: 10px;
+  color: inherit; /* Ensure text color changes with header color */
+}
+
+.subscribe-button {
+  margin-top: 8px;
+}
+
+@media (max-width: 768px) {
+  .logo-container {
+    flex-direction: column;
+  }
+
+  .logo-text {
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .title, .subtitle {
+    text-align: center;
+  }
+
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+}

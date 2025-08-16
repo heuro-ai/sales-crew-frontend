@@ -1,0 +1,47 @@
+.register-container {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.register-form {
+  width: 300px;
+}
+
+.input-margin {
+  margin-bottom: 8px;
+}
+
+.company-list {
+  margin-top: 16px;
+}
+
+.company-item {
+  margin-bottom: 8px;
+}
+
+.position-list {
+  margin-left: 16px;
+}
+
+.position-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.delete-icon {
+  color: red;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .register-container {
+    margin-top: 20px;
+  }
+
+  .register-form {
+    width: 100%;
+    padding: 0 16px;
+  }
+}
